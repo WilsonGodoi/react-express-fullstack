@@ -20,3 +20,10 @@ npm i --save history@4.7.2
 
 Building a Full Stack App with React and Express
 Curso Mastering Flux and Redux
+Curso Redux Saga https://www.pluralsight.com/courses/redux-saga
+
+C4A5 4:25min
+npm install --save redux-logger@3.0.6 redux-saga@0.16.2
+
+C4A5 5:56min
+npm install --save uuid
