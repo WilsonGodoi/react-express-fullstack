@@ -10,9 +10,9 @@ const sagaMiddleware = createSagaMiddleware();
 export const store = createStore(
   combineReducers({
     tasks(tasks = defaultState.tasks, action) {
+      console.log(action);
       switch (action.type) {
         case mutations.CREATE_TASK:
-          //  console.log(action);
           return [
             ...tasks,
             {
@@ -23,6 +23,22 @@ export const store = createStore(
               isComplete: false,
             },
           ];
+        case mutations.SET_TASK_COMPLETE:
+          return tasks.map((task) =>
+            task.id === action.taskID
+              ? { ...task, isComplete: action.isComplete }
+              : task
+          );
+        case mutations.SET_TASK_NAME:
+          return tasks.map((task) =>
+            task.id === action.taskID ? { ...task, name: action.name } : task
+          );
+        case mutations.SET_TASK_GROUP:
+          return tasks.map((task) =>
+            task.id === action.taskID
+              ? { ...task, group: action.groupID }
+              : task
+          );
       }
       return tasks;
     },
