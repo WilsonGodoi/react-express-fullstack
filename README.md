@@ -31,3 +31,6 @@ npm install --save uuid
 Capitulo 5 backend
 C5A3 1:21
 npm install --save-dev mongodb@3.1.10
+
+C5A4 1:34
+npm install --save-dev express@4.16.3 cors@2.8.4 body-parser@1.18.3
