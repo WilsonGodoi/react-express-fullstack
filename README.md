@@ -34,3 +34,10 @@ npm install --save-dev mongodb@3.1.10
 
 C5A4 1:34
 npm install --save-dev express@4.16.3 cors@2.8.4 body-parser@1.18.3
+
+C6A1
+Como rodar o frontend e o backend ao mesmo tempo
+npm install --save-dev concurrently@4.0.1
+
+C6A3
+npm install --save axios@0.18.0
