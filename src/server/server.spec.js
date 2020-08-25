@@ -1,6 +1,12 @@
-import { addNewTask } from "./server";
+import { addNewTask, updateTask } from "./server";
 
-addNewTask({
-  name: "My Task",
-  id: "12345",
-});
+(async function myFunc() {
+  await addNewTask({
+    name: "My Task",
+    id: "123456",
+  });
+  await updateTask({
+    name: "My Task updated",
+    id: "123456",
+  });
+})();
