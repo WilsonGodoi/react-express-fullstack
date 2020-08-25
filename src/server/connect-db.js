@@ -1,6 +1,5 @@
 import { MongoClient } from "mongodb";
-const url =
-  "mongodb+srv://wilson:123963163912@carsalesdb-aqmca.azure.mongodb.net/myorganizer?retryWrites=true&w=majority";
+const url = "";
 let db = null;
 
 export async function connectDB() {
