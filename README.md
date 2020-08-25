@@ -27,3 +27,7 @@ npm install --save redux-logger@3.0.6 redux-saga@0.16.2
 
 C4A5 5:56min
 npm install --save uuid
+
+Capitulo 5 backend
+C5A3 1:21
+npm install --save-dev mongodb@3.1.10
