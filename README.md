@@ -41,3 +41,6 @@ npm install --save-dev concurrently@4.0.1
 
 C6A3
 npm install --save axios@0.18.0
+
+C7A2 3:36
+Redirect, excelente para RouteGuard
