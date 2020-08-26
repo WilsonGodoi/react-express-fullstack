@@ -44,3 +44,6 @@ npm install --save axios@0.18.0
 
 C7A2 3:36
 Redirect, excelente para RouteGuard
+
+C7A3
+npm install --save md5
